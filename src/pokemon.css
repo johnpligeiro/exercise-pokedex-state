@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid rgb(51, 3, 3);
+  border-radius: 15px;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 80%;
+  background-color: rgb(128, 70, 70);
+}
+
+.card p {
+  font-weight: 600;
+  color: rgba(2, 41, 53, 0.925);
+  text-align: center;
+  margin: 5px;
+}
+
+.poke {
+  border: 3px solid rgb(207, 56, 56);
+  border-radius: 20px;
+  margin: 10px;
+  min-width: 200px;
+  background-color: rgb(255, 212, 212);
+}
